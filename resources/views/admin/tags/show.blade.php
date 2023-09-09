@@ -1,0 +1,18 @@
+@extends('adminlte::page')
+@section('title', 'Panel')
+
+@section('content_header')
+    <h1>Mostrar detalle de Generos</h1>
+@stop
+
+@section('content')
+    <p>Bienvenido al panel de Administrador.</p>
+@stop
+
+@section('css')
+    <link rel="stylesheet" href="/css/admin_custom.css">
+@stop
+
+@section('js')
+    <script> console.log('Hi!'); </script>
+@stop
